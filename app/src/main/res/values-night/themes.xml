@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for dark mode. -->
+    <style name="Base.Theme.GitHubRepositoriesExample" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- Primary color. -->
+        <item name="colorPrimary">@color/my_dark_primary</item>
+
+        <!-- Primary variant (usually a darker shade of primary). -->
+        <item name="colorPrimaryVariant">@color/my_dark_primary_variant</item>
+
+        <!-- Secondary color. -->
+        <item name="colorSecondary">@color/my_dark_secondary</item>
+
+        <!-- Background color. -->
+        <item name="android:colorBackground">@color/my_dark_background</item>
+
+        <!-- Text color. -->
+        <item name="android:textColorPrimary">@color/my_dark_text_primary</item>
+
+        <!-- Toolbar background. -->
+        <item name="android:colorPrimaryDark">@color/my_dark_primary_variant</item>
+    </style>
+
+    <style name="Theme.GitHubRepositoriesExample" parent="Base.Theme.GitHubRepositoriesExample" />
+</resources>
